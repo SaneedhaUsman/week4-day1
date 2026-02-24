@@ -92,12 +92,12 @@
 // console.log(age); //error
 //____block scope_____
 
-if(true){
-let city = "Delhi"
-    console.log(city);
-}
+// if(true){
+// let city = "Delhi"
+//     console.log(city);
+// }
 
- console.log(city);
+//  console.log(city); // error
 
 
 

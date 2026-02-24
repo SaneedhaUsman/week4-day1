@@ -40,11 +40,22 @@
 
 //_____Rest with Other Parameters_____
 
-function student(name, ...marks){
+// function student(name, ...marks){
 
-    console.log(name);
-    console.log(marks);
+//     console.log(name);
+//     console.log(marks);
 
-}
+// }
 
-student("Amina" , 95,87,100);
+// student("Amina" , 95,87,100);
+
+//___Spread with Arrays___
+
+let arr1 = [1,2,3,4];
+let arr2 = [5,6,7,8];
+
+const combined = [...arr1,...arr2];
+
+console.log(combined);
+
+

@@ -73,15 +73,24 @@
 // const updated = {...student , grade :"A"};
 // console.log(updated);
 
-let name = "Amina"; //global scope
-console.log(name)
+// let name = "Amina"; //global scope, It can be accessed anywhere in the file.
+// console.log(name)
 
-function greet(){
+// function greet(){
 
-    console.log(name);
+//     console.log(name);
+// }
+// greet();
+// console.log(name);
+
+function test(){
+    let age = 20;
+    console.log(age);
 }
-greet();
-console.log(name);
+
+test();
+console.log(age);
+
 
 
 

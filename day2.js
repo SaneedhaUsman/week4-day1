@@ -68,10 +68,20 @@
 
 //____Spread with Objects___
 
-const student = {name : "Ridha", age : 20};
+// const student = {name : "Ridha", age : 20};
 
-const updated = {...student , grade :"A"};
-console.log(updated);
+// const updated = {...student , grade :"A"};
+// console.log(updated);
+
+let name = "Amina"; //global scope
+console.log(name)
+
+function greet(){
+
+    console.log(name);
+}
+greet();
+console.log(name);
 
 
 

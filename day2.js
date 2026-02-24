@@ -99,6 +99,14 @@
 
 //  console.log(city); // error
 
+// if (true){
 
+//     var x = 10;
+//     console.log(x);//works
+// }
+
+// console.log(x);//works
+
+//var is not block scoped. var is function scoped
 
 

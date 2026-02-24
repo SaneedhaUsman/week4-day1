@@ -60,11 +60,18 @@
 
 //____Copying an Array__
 
-const fruits = ["apple","mango","strawberry"];
+// const fruits = ["apple","mango","strawberry"];
 
-const copy = [...fruits];
+// const copy = [...fruits];
 
-console.log(copy);
+// console.log(copy);
+
+//____Spread with Objects___
+
+const student = {name : "Ridha", age : 20};
+
+const updated = {...student , grade :"A"};
+console.log(updated);
 
 
 

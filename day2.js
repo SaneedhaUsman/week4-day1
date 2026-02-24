@@ -83,13 +83,13 @@
 // greet();
 // console.log(name);
 
-function test(){
-    let age = 20;
-    console.log(age);
-}
+// function test(){
+//     let age = 20;
+//     console.log(age);//function scope
+// }
 
-test();
-console.log(age);
+// test();
+// console.log(age); //error
 
 
 

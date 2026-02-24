@@ -82,7 +82,7 @@
 // }
 // greet();
 // console.log(name);
-
+//_______function scope________
 // function test(){
 //     let age = 20;
 //     console.log(age);//function scope
@@ -90,7 +90,14 @@
 
 // test();
 // console.log(age); //error
+//____block scope_____
 
+if(true){
+let city = "Delhi"
+    console.log(city);
+}
+
+ console.log(city);
 
 
 

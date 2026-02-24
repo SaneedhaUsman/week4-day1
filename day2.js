@@ -31,9 +31,20 @@
 // });
 //___Rest in Function Parameters__
 
-function sum(...numbers){
+// function sum(...numbers){
 
-    return numbers.reduce((total,num) => total + num ,0)
+//     return numbers.reduce((total,num) => total + num ,0)
+// }
+
+// console.log(sum(1,2,3,4));
+
+//_____Rest with Other Parameters_____
+
+function student(name, ...marks){
+
+    console.log(name);
+    console.log(marks);
+
 }
 
-console.log(sum(1,2,3,4));
+student("Amina" , 95,87,100);

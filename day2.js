@@ -51,11 +51,21 @@
 
 //___Spread with Arrays___
 
-let arr1 = [1,2,3,4];
-let arr2 = [5,6,7,8];
+// let arr1 = [1,2,3,4];
+// let arr2 = [5,6,7,8];
 
-const combined = [...arr1,...arr2];
+// const combined = [...arr1,...arr2];
 
-console.log(combined);
+// console.log(combined);
+
+//____Copying an Array__
+
+const fruits = ["apple","mango","strawberry"];
+
+const copy = [...fruits];
+
+console.log(copy);
+
+
 
 

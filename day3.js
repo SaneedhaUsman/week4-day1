@@ -140,11 +140,77 @@
 
 // console.log(rest);
 
+// const student = {
 
+//     name: "Amina",
+//   age: 20
+// }
 
+//  console.log(student.name);
+//  console.log(student.age);
 
+// const name = student.name;
+// const age = student.age;
+// console.log(name);
+// console.log(age);
 
+//____Using Destructuring__
 
+// const student = {
+//   name: "Ameen",
+//   age: 22
+// };
+// const {name , age} = student;
+
+// console.log(name , age);
+
+// const { name: studentName, age: studentAge } = student;
+
+// console.log(studentAge);
+// console.log(studentName);
+
+//______default value___
+
+// const student = {
+//    name: "Ameen",
+//    age: 22
+//  };
+
+//  const{ name , age , marks = 100} = student;
+
+//  console.log(marks);
+
+//  console.log(name , age , marks);
+
+//____Rest Operator with Object___
+
+// const student = {
+//   name: "Amina",
+//   age: 20,
+//   marks: 85
+// };
+
+// const {name , ...others} = student;
+
+// console.log(name);
+// console.log(others);
+// function greet({ name, age }) {
+//   console.log("Hello " + name + ", age " + age);
+// }
+
+// const student = { name: "Amina", age: 20 };
+
+// greet(student);
+
+// function greet({name , age}){
+
+//     console.log("Hello " + name + " , age " + age);
+
+// }
+
+// const student = {name : "Anu" , age : 24 , city : "Delhi" , marks : 95 , grade : "A"};
+
+// greet(student);
 
 
 

@@ -132,13 +132,13 @@
 
 //______Rest Operator with Array__
 
-const numbers = [1,2,3,4,5,6];
+// const numbers = [1,2,3,4,5,6];
 
-const [first , ... rest] = numbers;
+// const [first , ... rest] = numbers;
 
-console.log(first);
+// console.log(first);
 
-console.log(rest);
+// console.log(rest);
 
 
 

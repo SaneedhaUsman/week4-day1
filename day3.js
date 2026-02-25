@@ -73,3 +73,37 @@
 // let user2 = new User ("Mohamed" , 14);
 // user2.greet();
 // console.log(user2);
+
+// const bankAccount = {
+
+//     balance : 1000,
+//     deposit : function(amount){
+
+//         this.balance += amount ;
+//     },
+
+//     withdraw : function(amount){
+     
+//         this.balance -= amount ;
+//     }
+
+// };
+
+// bankAccount.deposit(500);
+
+// console.log(bankAccount.balance);
+
+// bankAccount.deposit(1000);
+//  console.log(bankAccount.balance);
+
+//  bankAccount.withdraw(500);
+//  console.log(bankAccount.balance);
+
+//  console.log(bankAccount);
+
+
+
+
+
+
+

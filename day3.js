@@ -27,3 +27,20 @@
 
 // console.log(student.getResult());
 
+
+//___ceating object using Constructor Function___
+
+// function Person(name , age){
+
+//     this.name = name;
+//     this.age = age;
+//    this.greet = function(){
+
+//     console.log("Hi i am " + this.name);
+//    };
+// }
+
+// const p1 = new Person("Diya" , 8);
+// p1.greet();
+
+// console.log(p1);

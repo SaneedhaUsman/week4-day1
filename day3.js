@@ -43,4 +43,33 @@
 // const p1 = new Person("Diya" , 8);
 // p1.greet();
 
-// console.log(p1);
+//  console.log(p1);
+
+//  const p2 = new Person("Nidha" , 13);
+//  p2.greet();
+//  console.log(p2);
+
+//____ceating object using Class (Modern Way - ES6)___
+
+// class User {
+
+//     constructor(name , age){
+
+//         this.name = name;
+//         this.age = age;
+
+//     }
+
+//     greet(){
+
+//         console.log("Hello " + this.name);
+//     }
+// }
+
+// const user1 = new User ("Sanad" , 26);
+// user1.greet();
+// console.log(user1);
+
+// let user2 = new User ("Mohamed" , 14);
+// user2.greet();
+// console.log(user2);

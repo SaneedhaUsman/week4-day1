@@ -101,6 +101,49 @@
 
 //  console.log(bankAccount);
 
+// const numbers = [10, 20, 30];
+ 
+// const a = numbers[0];
+// const b = numbers[1];
+// const c = numbers[2];
+
+// console.log(a ,b, c);
+// console.log(a );
+// console.log(b);
+// console.log( c);
+
+//______destructuring____
+
+// const numbers = [10, 20, 30];
+//  const [a , b, c] = numbers;
+//  console.log(a,b,c);
+// const numbers = [10, 20, 30];
+// const[a , ,c] = numbers;
+
+// console.log(a,c);
+
+//____Default Values___
+
+// const numbers = [10];
+// const[a , b = 40] = numbers;
+
+// console.log(a,b);
+
+
+//______Rest Operator with Array__
+
+const numbers = [1,2,3,4,5,6];
+
+const [first , ... rest] = numbers;
+
+console.log(first);
+
+console.log(rest);
+
+
+
+
+
 
 
 

@@ -212,7 +212,82 @@
 
 // greet(student);
 
+// function createAccount(){
 
+//     let balance = 0;
+
+//     return function deposit(amount){
+
+//         balance += amount;
+//         console.log("Balance : " , balance );
+//     };
+// }
+
+// const myAccount = createAccount();
+// myAccount(500);
+// myAccount(2000);
+
+// function createCounter(){
+
+//     let count = 0;
+
+//     return function(){
+//      count++;
+//      console.log(count);
+
+//     };
+// }
+
+// const counter = createCounter();
+
+// counter();
+// counter();
+// counter();
+// counter();
+// counter();
+
+//____data privacy using closures___
+
+// Password is hidden.
+// Nobody can access it directly.
+// Only allowed functions can use it.
+
+
+// function createUser(name){
+
+//     let password = "12345";
+//     return {
+
+//         getName : function(){
+
+//             return name;
+//         }
+//     };
+// }
+
+// const user = createUser("Arun");
+
+// console.log(user.getName());
+// console.log(user.password);
+
+// function clickTracker(){
+
+// let clicks = 0;
+
+// return function(){
+
+//     clicks++;
+//     console.log("Clicked " , clicks ," times" );
+// };
+
+// }
+
+// const tracker = clickTracker();
+
+// tracker();
+// tracker();
+// tracker();
+// tracker();
 
 
 

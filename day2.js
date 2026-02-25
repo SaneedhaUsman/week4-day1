@@ -109,4 +109,24 @@
 
 //var is not block scoped. var is function scoped
 
+// function outer(){
+// let outervar = "I am outer";
+//     function inner(){
 
+//         console.log(outervar);
+//     }
+
+//     inner();
+// }
+
+// outer();
+
+//_______Variable Shadowing.____
+// let count = 10;
+// function show(){
+
+// let count = 20;
+
+// console.log(count);
+// }
+// show();

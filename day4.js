@@ -46,3 +46,39 @@
 // const user1 = new User("Rinu ", 19);
 // console.log(user1);
 // user1.greet();
+
+
+//_____Inheritance using extends__
+
+// class Person{
+// constructor(name , age){
+
+//     this.name = name;
+//     this.age = age;
+// }
+
+// greet(){
+
+//     console.log("Hi, I'm " + this.name);
+// }
+
+
+// }
+
+// class Student extends  Person{
+
+//     constructor(name , age , grade){
+
+//         super(name , age);
+//         this.grade = grade;
+//     }
+
+//     study(){
+//     console.log(this.name + " is studying in grade " + this.grade);
+//     }
+// }
+
+// const student1 = new Student("Adhi" , 9 ,"A");
+
+// console.log(student1);
+// student1.study();

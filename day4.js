@@ -27,3 +27,22 @@
 
 // console.log(Person.prototype.__proto__ === Object.prototype);
 // console.log(Object.prototype.__proto__);
+
+//___Classes Also Use Prototypes___
+
+// class User{
+
+//     constructor(name , age){
+
+//     this.name = name;
+// this.age = age;
+// }
+// greet(){
+
+//     console.log(this.name , this.age);
+// }
+// }
+
+// const user1 = new User("Rinu ", 19);
+// console.log(user1);
+// user1.greet();

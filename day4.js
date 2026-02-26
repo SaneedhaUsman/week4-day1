@@ -51,10 +51,11 @@
 //_____Inheritance using extends__
 
 // class Person{
-// constructor(name , age){
+// constructor(name , age , grade){
 
 //     this.name = name;
 //     this.age = age;
+    
 // }
 
 // greet(){
@@ -69,7 +70,7 @@
 
 //     constructor(name , age , grade){
 
-//         super(name , age);
+//         super(name , age);// Calls parent constructor
 //         this.grade = grade;
 //     }
 
@@ -82,3 +83,42 @@
 
 // console.log(student1);
 // student1.study();
+
+// student1.greet();
+
+//____Method Overriding__
+
+//Child class can override parent methods
+
+// class Student extends Person{
+ 
+// greet(){
+
+//     console.log("Hello, I'm student " + this.name);
+// }
+// }
+
+// const student1 = new Student("Afi" , 4 );
+// student1.greet();
+
+// console.log(student1);
+
+// class Animal{
+
+//     speak(){
+
+//         console.log("Animal makes sound");
+//     }
+// }
+
+// class Dog extends Animal{
+//     speak(){
+//     console.log("Dog barks");}
+// }
+
+// const d1 = new Dog();
+
+// console.log(d1);
+
+// d1.speak();
+//____Dog overrides speak() from Animal____

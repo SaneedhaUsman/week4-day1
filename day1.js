@@ -200,15 +200,15 @@
 
 //   console.log(total);
 
-const users = [{ name: "Ali", age: 17 },
-  { name: "Sara", age: 25 },
-  { name: "John", age: 30 },
-  { name: "Maya", age: 15 }];
+// const users = [{ name: "Ali", age: 17 },
+//   { name: "Sara", age: 25 },
+//   { name: "John", age: 30 },
+//   { name: "Maya", age: 15 }];
 
-  const adultNames = users
+//   const adultNames = users
 
-  .filter((user) => user.age >= 18)
-  .map((user) => user.name.toUpperCase())
-  .sort();
+//   .filter((user) => user.age >= 18)
+//   .map((user) => user.name.toUpperCase())
+//   .sort();
 
-  console.log(adultNames);
+//   console.log(adultNames);

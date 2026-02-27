@@ -195,3 +195,42 @@
 
 // greet.apply(person , ["Delhi" , "India"]);
 
+//_____bind() Method___
+
+// bind() does NOT call the function immediately
+
+// It returns a new function with this permanently set.
+
+// function greet(){
+
+//     console.log("Hi I am " + this.name);
+// }
+
+// let Person = {
+
+//     name : "Nimi"
+// }
+
+// const newGreet = greet.bind(Person);
+
+// newGreet();
+
+//____Real-World Use Case___
+
+const student1 = {
+
+   name :"Amina" ,
+
+   greet(){
+
+console.log("I am " + this.name);
+   }
+};
+
+const student2 = {
+
+       name :"Diya" 
+
+};
+
+student1.greet.call(student2);

@@ -174,3 +174,27 @@
 // console.log(Math.min(...numbers));
 
 // console.log(Math.max(...numbers));
+
+// const greet = function(name){
+
+//     return "Hello " + name ;
+// }
+
+// console.log(greet("Amina"));
+
+//____Passing a Function as an Argument (Callback)___
+
+//Very common in real-world JavaScript.
+
+// function processUserInput(name,callback){
+
+//     return callback(name);
+// }
+
+// function greet(name){
+
+//     return "Hi " + name;
+// }
+
+// console.log(processUserInput("Diya" , greet));
+

@@ -166,3 +166,32 @@
 // let storedNums = JSON.parse(localStorage.getItem("nums"));
 
 // console.log(storedNums[2]);
+
+//___call() Method___
+
+// function greet(city){
+
+//     console.log("Hi I am " + this.name + " from " + city);
+// }
+
+// const person = {
+
+//     name : "Amina"
+// };
+
+// greet.call(person, "Kochi");
+
+//___apply() Method___
+
+// function greet(city , country){
+
+//     console.log("Hi I am " + this.name + " from " + city + " , " + country);
+// }
+
+// const person = {
+
+//     name : "Alex"
+// };
+
+// greet.apply(person , ["Delhi" , "India"]);
+

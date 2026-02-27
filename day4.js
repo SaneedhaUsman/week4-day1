@@ -121,4 +121,48 @@
 // console.log(d1);
 
 // d1.speak();
-//____Dog overrides speak() from Animal____
+//Dog overrides speak() from Animal
+
+//____Local Storage___
+
+// localStorage.setItem("name" , "Ridha");
+
+// let value = localStorage.getItem("name");
+
+// console.log(value);
+
+//____Session Storage___
+
+// sessionStorage.setItem("user" , "Admin");
+
+// let value = sessionStorage.getItem("user");
+
+// console.log(value);
+
+//___JSON Handling___
+
+// const user = {
+//   name: "Amina",
+//   age: 22
+// };
+
+// localStorage.setItem("userData" , JSON.stringify(user));
+
+// Now the object is stored as a string.
+
+// let data = localStorage.getItem("userData");
+
+// let parsedData = JSON.parse(data);
+
+// console.log(parsedData.name);
+
+// console.log(parsedData.age);
+
+
+// let numbers = [1,2,3,4,5,6];
+
+// localStorage.setItem("nums",JSON.stringify(numbers));
+
+// let storedNums = JSON.parse(localStorage.getItem("nums"));
+
+// console.log(storedNums[2]);

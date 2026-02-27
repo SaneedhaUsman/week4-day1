@@ -162,3 +162,15 @@
 // console.log(Math.trunc(8.6));
 // console.log(Math.trunc(9.2));
 // console.log(Math.trunc(9.9));
+
+// console.log(Math.min(2,3,4,1,0,9));
+
+// console.log(Math.max(2,3,4,1,0,9));
+
+//With Arrays
+
+//You must use spread operator:
+// let numbers = [2,3,4,1,0,9,13,-9];
+// console.log(Math.min(...numbers));
+
+// console.log(Math.max(...numbers));

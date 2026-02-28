@@ -87,7 +87,7 @@
 //     count.set(word ,(count.get(word) || 0 ) + 1);
 // }
 
-// console.log(count);
+//  console.log(count);
 // const numbers = [1,1,3,1,4,4,6,5,6,9,8,7,9];
 
 // const uniqueNumbers = [...new Set(numbers)];
@@ -226,4 +226,12 @@
 // console.log(operations[0](5 , 3));
 
 // console.log(operations[1](8,6));
+
+// const numbers = [1,2,3,4,5];
+
+// const double = numbers.map(function(num){
+//     return num * 2 ;
+// });
+
+// console.log(double);
 

@@ -198,3 +198,17 @@
 
 // console.log(processUserInput("Diya" , greet));
 
+//____Returning a Function (Closures)__
+
+// function multiplier(factor){
+
+//     return function(number){
+
+//         return number * factor;
+//     }
+// }
+
+// const double = multiplier(6);
+
+// console.log(double(2));
+

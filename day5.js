@@ -212,3 +212,18 @@
 
 // console.log(double(2));
 
+//___Storing Functions in Arrays__
+
+// const operations = [
+//     function(a , b){
+//         return a + b ;
+//     } ,
+//     function(a,b){
+//         return a - b;
+//     }
+// ];
+
+// console.log(operations[0](5 , 3));
+
+// console.log(operations[1](8,6));
+
